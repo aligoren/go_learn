@@ -21,7 +21,7 @@ func main() {
 	log.SetPrefix("Error Handling: ")
 	log.SetFlags(0)
 
-	message, err := Hello("Ali")
+	message, err := Hello("")
 
 	if err != nil {
 		log.Fatal(err)
